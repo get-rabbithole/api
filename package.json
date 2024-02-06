@@ -1,0 +1,27 @@
+{
+  "name": "twitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch --env-file .env src/http/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.490.0",
+    "@aws-sdk/s3-request-presigner": "3.490.0",
+    "@fastify/cors": "9.0.1",
+    "@prisma/client": "5.8.0",
+    "axios": "1.6.5",
+    "fastify": "4.25.2",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.0",
+    "prisma": "5.8.0",
+    "tsx": "4.7.0",
+    "typescript": "5.3.3"
+  }
+}
